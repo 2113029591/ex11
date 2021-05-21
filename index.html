@@ -23,24 +23,29 @@
                 <ul class="nav navbar-nav">
                   <li class="active"><a href="#">首页 <span class="sr-only">(current)</span></a></li>
                   <li class="login"><a data-toggle="modal" data-target="#myModal">登录</a></li>
+                  <li class="welcome"><a href="#">test <span class="sr-only">(current)</span></a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <!-- <div class="login">
-        <input type="text" class="input-name" placeholder="请输入账号">
-        <input type="password" class="input-pwd" placeholder="请输入密码">
-        <button class="sign-in">登录</button>
-        <button class="sign-up">注册</button>
-    </div> -->
+
     <div class="container">
         <div class="list">
+            <ul>
+                <li class="btn-speak border shadow" style="background-color: orange;">
+                    <div class="del"><span class="delete glyphicon glyphicon-remove-circle"></span></div>
+                    <span class="title" style="color: black;">游客</span>
+                    <br>
+                    <div class="text" style="color: black;">我也要吐槽</div>
+                    <textarea name="input-text" id="input-text" cols="20" rows="5"></textarea>
+                    <div class="agr">
+                        <span class="agree glyphicon glyphicon-thumbs-up"></span>
+                        
+                    </div>
+                    
+                </li>
+            </ul>
         </div>
-        <!-- <div class="btn"></div>
-        <div class="from">
-            <textarea name="" id="text-box" cols="30" rows="10">
-            </textarea>
-        </div> -->
     </div>
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -56,7 +61,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
-                    <button type="button" class="btn btn-primary">登录</button>
+                    <button type="button" class="btn-login btn btn-primary">登录</button>
                 </div>
             </div>
         </div>
